@@ -2,7 +2,7 @@
 ### a web application built with Django for listing the news 
 
 
-a web application built with Django for displaying a list of news to users. users can signup, login, browse articles, and add them to their favorite list.
+A web application built with Django for displaying a list of news to users. users can signup, login, browse articles, and add them to their favorite list.
 
 
 
@@ -30,22 +30,23 @@ some technology used this project
 ## Installation
 
 
-to install and run the app follow the below commands and make sure you have created and activated a virtual environment.
+To install and run the app follow the below commands and make sure you have created and activated a virtual environment.
 
-Run the below command to install the requirements
+Run the below command to install the requirements:
 ```sh
 pip install requirements.txt
 ```
-Execute the below commands to run the application
+Execute the below command to run the application:
+```sh
+python3 manage.py runserver
+```
+
+The file `db.sqlite3` already contains loaded data for the articles from an external API but in case the data is deleted you can run the below command which will load the data to the local database and run the application.
+
 ```sh
 python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py runserver
-```
-
-The file `db.sqlite3` already contains load data for an article from an external API but in case the data is deleted you can run the below command which will load the data to the local database. and re-run the previous commands to run the application.
-
-```sh
 python3 manage.py populate_db
 ```
 
@@ -61,4 +62,3 @@ python3 manage.py populate_db
    [Crispy forms]: <https://django-crispy-forms.readthedocs.io/en/latest/>
    [Django generic views]: <https://docs.djangoproject.com/en/4.0/topics/class-based-views/generic-display/>
    
-
