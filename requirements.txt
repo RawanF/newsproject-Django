@@ -1,0 +1,14 @@
+asgiref==3.5.2
+certifi==2022.6.15
+charset-normalizer==2.1.0
+Django==3.2.15
+django-crispy-forms==1.14.0
+django-phonenumber-field==6.3.0
+django-phonenumbers==1.0.1
+idna==3.3
+phonenumbers==8.12.53
+pytz==2022.2.1
+requests==2.28.1
+sqlparse==0.4.2
+typing_extensions==4.3.0
+urllib3==1.26.11

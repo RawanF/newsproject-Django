@@ -1,0 +1,13 @@
+### Django ###
+.log
+*.pyc
+__pycache__/
+
+
+### visual studio code ###
+.vscode/
+.vscode/* 
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
