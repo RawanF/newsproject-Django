@@ -30,7 +30,7 @@ To install and run the app follow the below commands and make sure you have crea
 
 Run the below command to install the requirements:
 ```sh
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 Execute the below command to run the application:
 ```sh
